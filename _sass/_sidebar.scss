@@ -1,0 +1,63 @@
+/**
+ * Sidebar
+*/
+.sidebar {
+    position: sticky;
+    border-right: 1px solid #eee;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex: 1 1 0%!important;
+    flex-direction: column;
+    flex-shrink: 0 !important;
+    align-items: flex-end;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    max-width: 32rem;
+
+    
+    &-inner {
+        height: 100%;
+        padding: 2rem 4rem 2rem 4rem;
+    }
+
+    &-logo {
+        height: 80px;
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        margin-top: 14px;
+
+        .icon {
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            img {
+                width: 64px;
+            }
+        }
+        .name {
+            position: absolute;
+            top: 9px;
+            left: 70px;
+            font-size: 36px;
+            color: #f8cc1d;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+    &-nav {
+        padding: 2rem 0;
+        height: calc(100% - 200px);
+
+        ul {
+            li {
+                margin: 10px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.searchbar {
+    margin: 2rem 0;
+
+    input, select {
+        &:focus, &:focus-visible, &:focus-within {
+            outline: none;
+            box-shadow: none !important;
+        }
+    }
+
+    .input-group-text {
+        background-color: transparent !important;
+        border-right-color: transparent !important;
+        border-right: 0 !important;
+        border-top: 0;
+        border-left: 0;
+        border-radius: 0;
+    }
+
+    .txt-search {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        font-size: 1rem;
+
+        
+    }
+
+    .version {
+        margin-top: 5px;
+
+        label {
+            font-size: 14px;
+            letter-spacing: .1em!important;
+            font-size: .75rem!important;
+            line-height: 1rem!important;
+            color: #666;
+        }
+    }
+}

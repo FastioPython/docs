@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="page-wrap">
+      <div class="sidebar">
+        {% include sidebar.html %}
+      </div>
+
+      <div class="main container">
+        <div class="col-sm-8">
+          <div class="row">
+            <div class="content">
+              {% include searchbar.html %}
+              {{ content }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>

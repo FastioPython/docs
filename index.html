@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div>
+    <h1 class="text-uppercase">Fastio</h1>
+    <p>Full-stack python web framework, light weight, fast up productivity with the most common features 
+      like Auth0, Caching, Queue, Pubsub, S3 storage, and more...</p>
+  </div>
+
+  <p class="rss-subscribe">Follows me </p>
+  <p>
+    <ul class="social-media-list">
+    {% if site.github_username %}
+    <li class="mb-2">
+      {% include icon-github.html username=site.github_username %}
+    </li>
+    {% endif %}
+
+    {% if site.twitter_username %}
+    <li class="mb-2">
+      {% include icon-twitter.html username=site.twitter_username %}
+    </li>
+    <li class="mb-2">
+      <img src="/images/rss-16.png">
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}"> RSS</a>
+    </li>
+    {% endif %}
+  </ul></p>
+</div>

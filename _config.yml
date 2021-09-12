@@ -1,1 +1,20 @@
-theme: jekyll-theme-midnight
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Fastio
+email: opensource@fastio.dev
+description: > # this means to ignore newlines until "baseurl:"
+  Full-stack python web framework, light weight, fast up productivity with the most common features 
+  like Auth0, Caching, Queue, Pubsub, S3 storage, and more...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://docs.fastio.dev" # the base hostname & protocol for your site
+twitter_username: FastioPython
+github_username: FastioPython
+
+# Build settings
+markdown: kramdown
